@@ -24,7 +24,8 @@
      int dp[10001];
      int MOD;
 
-    int fn( int n ) {
+    int fn( int n )
+    {
 
         if( n == 0 ) return a;
         if( n == 1 ) return b;
